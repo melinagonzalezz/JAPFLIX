@@ -26,3 +26,57 @@ main {
 .offcanvas-top{
     height: fit-content;
 }
+
+/*Estilos agregados por mí*/
+
+.album {
+    margin-top: 20px;
+}
+
+.list-group-item {
+    background-color: #ffff; 
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.list-group-item h5 {
+    color: #800000;
+}
+
+.list-group-item p {
+    margin: 5px 0;
+}
+
+
+#detallePeliculas {
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    width: 60%;
+    z-index: 1000;
+    display: none; 
+}
+
+
+#detallePeliculas p {
+    margin: 10px 0; 
+}
+
+#btnCerrar {
+    background-color: #800000; 
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btnCerrar:hover {
+    background-color: #ff0000;  
+}
